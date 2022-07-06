@@ -7,7 +7,7 @@ typedef vector<ll> vll;
 
 /* 
  * Fenwick Tree (para calcular sumas de rangos dinamicamente)
- * "vi ft" almacenas la descomposicion de las sumas acumuladas paralelas a la representacion binaria del indice
+ * "vll ft" almacenas la descomposicion de las sumas acumuladas paralelas a la representacion binaria del indice
  * Podemos:
  * - Calcular la suma en un rango [l, r] en O(log(N))
  * - Actualizar el valor de un elemento o posicion en O(log(N))
